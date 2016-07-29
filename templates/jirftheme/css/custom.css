@@ -1,0 +1,50 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+ .tm-logo-small svg, .tm-logo-small img{
+    width: 60%;
+ }
+ .tm-top-a{
+    background-image: -webkit-linear-gradient(to top,#0e4369 18%,#5cc5ee 72%);
+    background-image: -webkit-linear-gradient(bottom,#0e4369 18%,#5cc5ee 72%);
+    background-image: linear-gradient(to top,#0e4369 18%,#5cc5ee 72%);
+    color: white;
+}
+ .tm-navbar, .tm-navbar > div{
+    height: 100px;
+ }
+ .tm-footer{
+    padding: 10px;
+ }
+
+.btn-primary, .btn-info, .btn-inverse{
+    background-color: white;
+    color: black;
+}
+.btn-primary:hover, .btn-info:hover, .btn-inverse:hover{
+    background-color: black;
+    color: white;
+}
+.mainh1{
+    font-size: 65px;
+    line-height: normal;
+    padding: 6% 0;
+}
+ /* Por debajo de 700px */
+@media screen and (max-width: 1000px){
+    .mainh1{
+        font-size: 45px;
+        line-height: normal;
+        padding: 6% 0;
+    }
+}
+/* Por debajo de 400px */
+@media screen and (max-width: 768px){
+    .mainh1{
+        font-size: 30px;
+        line-height: normal;
+        padding: 0;
+    }
+}

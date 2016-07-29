@@ -1,2 +1,0 @@
-# develovers
-Develovers website
